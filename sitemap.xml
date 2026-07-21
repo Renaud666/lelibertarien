@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Page d'accueil -->
+  <url>
+    <loc>https://lelibertarien.fr/</loc>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Pages thématiques -->
+  <url>
+    <loc>https://lelibertarien.fr/pages/liberte.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lelibertarien.fr/pages/justice.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lelibertarien.fr/pages/loi.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lelibertarien.fr/pages/concurrence.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lelibertarien.fr/pages/socialisme.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lelibertarien.fr/pages/connaissance.html</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Allégories -->
+  <url>
+    <loc>https://lelibertarien.fr/pages/allegorie-brigand.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://lelibertarien.fr/pages/allegorie-frites.html</loc>
+    <priority>0.9</priority>
+  </url>
+  
+</urlset>
