@@ -193,6 +193,28 @@ footer .contact a:hover {
     margin-bottom: 1.2rem;
 }
 
+/* ---------- RETOUR À L'ACCUEIL ---------- */
+.retour-accueil {
+    max-width: 800px;
+    margin: 0 auto 1.5rem auto;
+    padding: 0 1rem;
+}
+
+.retour-accueil a {
+    display: inline-block;
+    color: #7f7f7f;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: 0.2s;
+    border-bottom: 1px solid transparent;
+}
+
+.retour-accueil a:hover {
+    color: #1c1c1c;
+    border-bottom-color: #1c1c1c;
+}
+
 /* ---------- RESPONSIVE ---------- */
 @media (max-width: 600px) {
     header h1 {
