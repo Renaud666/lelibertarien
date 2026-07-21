@@ -15,6 +15,18 @@ body {
     margin: 0 auto;
 }
 
+/* ---------- COULEUR DES LIENS ---------- */
+a {
+    color: #2c2c2c;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #1c1c1c;
+    text-decoration: underline;
+}
+
 /* ---------- HEADER ---------- */
 header {
     text-align: center;
