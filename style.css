@@ -30,33 +30,42 @@ header h1 {
     color: #1c1c1c;
 }
 
-/* ---------- NAVIGATION (mots-clés) ---------- */
+/* ---------- NAVIGATION (mots-clés en tags) ---------- */
+nav {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e0ddd8;
+}
+
 nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.6rem 1.8rem;
+    gap: 0.8rem;
     list-style: none;
-    padding: 1rem 0 2rem;
-    border-bottom: 1px solid #e0ddd8;
-    margin-bottom: 2.5rem;
+    padding: 0;
 }
 
 nav a {
+    display: inline-block;
     text-decoration: none;
     color: #2c2c2c;
     font-weight: 600;
-    font-size: 1.05rem;
-    padding: 0.3rem 0.2rem;
-    border-bottom: 2px solid transparent;
-    transition: 0.2s;
+    font-size: 1rem;
     font-family: 'Arial', sans-serif;
     text-transform: lowercase;
+    padding: 0.4rem 1.2rem;
+    background: #f0f0f0;
+    border: 1px solid #d0d0d0;
+    border-radius: 20px;
+    transition: 0.25s ease;
 }
 
 nav a:hover {
-    border-bottom-color: #1c1c1c;
-    color: #1c1c1c;
+    background: #1c1c1c;
+    color: #ffffff;
+    border-color: #1c1c1c;
+    transform: scale(1.04);
 }
 
 /* ---------- ARTICLES (aperçus) ---------- */
@@ -174,11 +183,12 @@ footer {
     }
 
     nav ul {
-        gap: 0.4rem 1rem;
+        gap: 0.5rem;
     }
 
     nav a {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
+        padding: 0.3rem 0.9rem;
     }
 
     .grille-articles {
