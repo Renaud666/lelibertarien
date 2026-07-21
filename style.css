@@ -143,6 +143,23 @@ footer {
     color: #7f7f7f;
 }
 
+footer .contact {
+    margin-top: 0.3rem;
+}
+
+footer .contact a {
+    color: #7f7f7f;
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: 0.2s;
+    border-bottom: 1px solid transparent;
+}
+
+footer .contact a:hover {
+    color: #1c1c1c;
+    border-bottom-color: #1c1c1c;
+}
+
 /* ---------- PAGES INTERNES (articles complets) ---------- */
 .page-article {
     max-width: 800px;
