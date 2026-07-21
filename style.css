@@ -30,6 +30,20 @@ header h1 {
     color: #1c1c1c;
 }
 
+/* ---------- TITRE CLIQUABLE ---------- */
+.titre-site {
+    text-decoration: none;
+    color: #1c1c1c;
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    transition: 0.2s;
+}
+
+.titre-site:hover {
+    color: #4a4a4a;
+}
+
 /* ---------- NAVIGATION (mots-clés en tags) ---------- */
 nav {
     margin-bottom: 2.5rem;
