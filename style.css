@@ -15,18 +15,6 @@ body {
     margin: 0 auto;
 }
 
-/* ---------- COULEUR DES LIENS ---------- */
-a {
-    color: #2c2c2c;
-    text-decoration: none;
-    transition: 0.2s;
-}
-
-a:hover {
-    color: #1c1c1c;
-    text-decoration: underline;
-}
-
 /* ---------- HEADER ---------- */
 header {
     text-align: center;
@@ -217,6 +205,19 @@ footer .contact a:hover {
 
 .page-article .contenu p {
     margin-bottom: 1.2rem;
+}
+
+/* ---------- LIENS DANS LE TEXTE DES ARTICLES ---------- */
+.contenu a {
+    color: #5a5a5a;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 0.2s;
+}
+
+.contenu a:hover {
+    color: #1c1c1c;
+    border-bottom-color: #1c1c1c;
 }
 
 /* ---------- RESPONSIVE ---------- */
