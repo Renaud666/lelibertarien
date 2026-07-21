@@ -209,15 +209,16 @@ footer .contact a:hover {
 
 /* ---------- LIENS DANS LE TEXTE DES ARTICLES ---------- */
 .contenu a {
-    color: #5a5a5a;
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
+    color: #3a3a3a;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: #b0b0b0;
     transition: 0.2s;
 }
 
 .contenu a:hover {
     color: #1c1c1c;
-    border-bottom-color: #1c1c1c;
+    text-decoration-color: #1c1c1c;
 }
 
 /* ---------- RESPONSIVE ---------- */
